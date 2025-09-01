@@ -1,6 +1,6 @@
 @font-face{
-    font-family: ButterMilk;
-    src: url(./ButterMilk.ttf);
+    font-family: Buttermilk;
+    src: url(./Buttermilk.woff2);
 }
 
 * {
@@ -43,6 +43,7 @@ border-radius: 1rem;
 box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 font-size: 8vmin;
 color: darkred;
+ font-family: ButterMilk;
 
 }
 #reset-btn{
@@ -52,6 +53,7 @@ color: darkred;
     color: #fff;
     border-radius: 1rem;
     border: none;
+     font-family: ButterMilk;
 
 }
 #reset-btn:hover{
@@ -59,6 +61,7 @@ color: darkred;
     transform: scale(0.95);
     color: darkred;
    backdrop-filter: 10px;
+    font-family: ButterMilk;
 
 }
 #new-btn{
@@ -70,17 +73,20 @@ color: darkred;
     border-radius: 1rem;
     border: none;
     height: 10vmin;
+     font-family: ButterMilk;
 }
 #new-btn:hover{
       transform: scale(0.95);
    box-shadow: 0 0 10px black;
    color: darkred;
    backdrop-filter: 10px;
+    font-family: ButterMilk;
 }
 #msg{
     color: darkred;
     font-size: 8vmin;
     height: 15vmin;
+     font-family: ButterMilk;
 }
 .msg-container{
     height: 100vmin;
@@ -89,6 +95,7 @@ color: darkred;
     align-items: center;
     flex-direction: column;
     gap: 4rem;
+     font-family: ButterMilk;
 
 }
 .hide{
