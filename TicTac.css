@@ -1,0 +1,96 @@
+@font-face{
+    font-family: ButterMilk;
+    src: url(./ButterMilk.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #868686;
+    text-align: center;
+     
+}
+.container{
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 5vmin;
+    height: 5vmin;
+    font-family: ButterMilk;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin ;
+
+}
+
+.box{
+height: 18vmin;
+width: 18vmin;
+border-radius: 1rem;
+/* border: none; */
+box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+font-size: 8vmin;
+color: darkred;
+
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+
+}
+#reset-btn:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(0.95);
+    color: darkred;
+   backdrop-filter: 10px;
+
+}
+#new-btn{
+    padding-top: 20vmin;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    height: 10vmin;
+}
+#new-btn:hover{
+      transform: scale(0.95);
+   box-shadow: 0 0 10px black;
+   color: darkred;
+   backdrop-filter: 10px;
+}
+#msg{
+    color: darkred;
+    font-size: 8vmin;
+    height: 15vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
+}
